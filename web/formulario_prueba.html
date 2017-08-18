@@ -1,0 +1,59 @@
+
+<html>
+    <head>
+        <title>Alibaba el guapo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+       
+    </head>
+    <body>
+        <div align="center">Formulario Prueba</div>
+        <div >
+            <!-- Código del formulario-->
+            <form action="pruebasv" method="GET">
+            <table cellspacing="2" align="center">
+                
+                <tbody>
+                    <tr>
+                        <td>Código del producto</td>
+                        <td><input type="text" name="codigo" placeholder="Código" /></td>
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input type="text" name="nombre" placeholder="Nombre del producto" /></td>
+                    </tr>
+                    <tr>
+                        <td>Precio de compra</td>
+                        <td><input type="number" name="compra" placeholder="Valor de compra" /></td>
+                    </tr>
+                    <tr>
+                        <td>Precio de venta</td>
+                        <td><input type="number" name="venta" placeholder="Precio de venta" /></td>
+                    </tr>
+                    <tr>
+                        <td>Cantidad</td>
+                        <td><input type="number" name="cantidad" placeholder="Cantidad" /></td>
+                    </tr>
+                    <tr>
+                        <td>Categoría</td>
+                        <td><select name="categoria">
+                                <option selected>- Seleccione -</option>
+                                <option value="1">Lácteos</option>
+                                <option value="2">Salud</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Estado</td>
+                        <td><input type="text" name="estado" value="Activo" size="50" readonly="readonly" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="Registrar" name="btnRegistrar"/></td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+            <!-- fin del código de la tabla -->
+        </div>
+        
+    </body>
+</html>
